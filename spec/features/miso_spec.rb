@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe "Wikipedia's Miso Page", :type => :feature do
+describe "Wikipedia's Miso Page", :type => :feature, :sauce => true do
   it "Should mention a favorite type of Miso" do
     visit "http://en.wikipedia.org/"
     fill_in 'search', :with => "Miso"
