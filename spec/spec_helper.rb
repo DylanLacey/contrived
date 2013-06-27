@@ -1,4 +1,6 @@
 require "rspec"
 require "capybara/rspec"
+require "selenium-webdriver"
+require "sauce_driver"
 
-Capybara.default_driver = :selenium
+Capybara.default_driver = :sauce
