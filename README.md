@@ -61,6 +61,8 @@ Four browsers are used:
 * Opera 12 on Linux
 * Safari 6 on OSX 10.8
 
+We're going to see 8 tests in total, one for each test on every browser.
+
 We're also using the sauce gem to give us automatic parallelization, result reporting and test naming.
 
 1.  Check the example out:  `git checkout parallel-sauce`
